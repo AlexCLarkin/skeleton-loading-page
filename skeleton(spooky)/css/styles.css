@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #cb2127;
+  --background-color: rgb(223, 223, 223);
+  --secondary-color: #fff;
+  --primary-font: Brandon Grotesque;
+}
+/*get font to work*/
+/*do actual skeleton bit */
+
+.body {
+  background-color: var(--background-color);
+}
+
+.your-box {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.subheading {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.subheading h2 {
+  color: var(--primary-color);
+}
+
+.subheading h3 {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  height: 350px;
+  width: 450px;
+  margin: 100px;
+}
+
+.red-box {
+  background-color: var(--primary-color);
+}
+
+.red-box-text {
+  font-size: 30px;
+  text-align: center;
+  color: var(--secondary-color);
+  padding-top: 50px;
+}
+
+.frequency-box {
+  width: 220px;
+  height: 40px;
+  background-color: var(--secondary-color);
+  margin-left: 110px;
+}
+
+.white-box {
+  background-color: var(--secondary-color);
+}
+
+.white-box-heading {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.single-delivery {
+  font-size: 15px;
+  text-align: center;
+}
+
+.frequency-box p:after {
+  content: "v";
+  margin-left: 85px;
+}
+
+.add-button {
+  width: 250px;
+  height: 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 24px;
+  margin-left: 70%;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: 30px;
+  width: 100%;
+}
