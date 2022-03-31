@@ -1,7 +1,5 @@
 function loading(){
-    var skeletons = document.getElementById("skeleton");
-skeletons.classList.remove("skeleton");
+    const element = document.getElementById("skeleton");
+    element.classList.remove("skeleton");   
   }
-  setTimeout(() => {
-   loading() 
-  }, 1);
+  setTimeout(loading() , 100);
