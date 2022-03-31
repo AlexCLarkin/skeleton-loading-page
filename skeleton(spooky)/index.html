@@ -14,44 +14,52 @@
     <title>Tatooed Chef Skeleton</title>
   </head>
   <body class="body skeleton">
-    <img src="images/tattooedchefheader.png" class="heading" width="100%" />
-    <container class="heading skeleton">
-      <div class="your-box skeleton">
-        <img class="zigzag1 skeleton" src="images/Vector.png" />
+    <script>
+      function loading(){
+        var skeletons = document.getElementById("skeleton");
+  skeletons.classList.remove("skeleton");
+      }
+      setTimeout(() => {
+       loading() 
+      }, 1);
+    </script>
+    <img src="images/tattooedchefheader.png" class="heading" id="skeleton" width="100%" />
+    <container class="heading">
+      <div class="your-box skeleton" id="skeleton">
+        <img class="zigzag1 skeleton" id="skeleton" src="images/Vector.png" />
         <h1>YOUR BOX</h1>
-        <img class="zigzag2 skeleton" src="images/Vector.png" />
+        <img class="zigzag2 skeleton" id="skeleton" src="images/Vector.png" />
       </div>
-      <div class="subheading skeleton">
-        <h2 class="skeleton">CHOOSE YOUR PREFERED PLAN</h2>
+        <h2 class="skeleton subheading" id="skeleton">CHOOSE YOUR PREFERED PLAN</h2>
       </div>
-      <h3 class="subheading-h3 skeleton">
+      <h3 class="subheading-h3 skeleton" id="skeleton">
         select the frequency that will suit you
       </h3>
     </container>
-    <div class="boxes skeleton">
-      <div class="red-box box skeleton">
-        <p class="red-box-text skeleton">
+    <div class="boxes">
+      <div class="red-box box skeleton" id="skeleton">
+        <p class="red-box-text skeleton" id="skeleton">
           Subscribe and save 10% <br />
           $29.99 per month
         </p>
 
-        <div class="frequency-box skeleton">
-          <p class="frequency skeleton">FREQUENCY</p>
-          <p class="every-4-weeks skeleton">Every 4 week(s)</p>
-          <p class="down-arrow skeleton">v</p>
+        <div class="frequency-box">
+          <p class="frequency skeleton" id="skeleton">FREQUENCY</p>
+          <p class="every-4-weeks skeleton" id="skeleton">Every 4 week(s)</p>
+          <p class="down-arrow skeleton" id="skeleton">v</p>
         </div>
       </div>
-      <div class="white-box box skeleton">
-        <p class="white-box-heading skeleton">
+      <div class="white-box box">
+        <p class="white-box-heading skeleton" id="skeleton">
           One time purchase <br />
           $39.99
         </p>
-        <p class="single-delivery skeleton">
+        <p class="single-delivery skeleton" id="skeleton">
           Single delivery processed at checkout
         </p>
       </div>
     </div>
-    <div class="add-button skeleton">ADD BOX TO CART →</div>
-    <img class="footer skeleton" src="images/Footer.png" />
+    <div class="add-button skeleton" id="skeleton">ADD BOX TO CART →</div>
+    <img class="footer" src="images/Footer.png" />
   </body>
 </html>
